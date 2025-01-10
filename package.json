@@ -1,0 +1,30 @@
+{
+  "name": "discord-number-counter",
+  "version": "1.0.0",
+  "description": "A simple number counter package for Discord bots using discord.js. Supports normal, reverse, and multiply counting modes.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "counter",
+    "discord.js",
+    "bot",
+    "utility"
+  ],
+  "author": "Ryan",
+  "license": "MIT",
+  "dependencies": {},
+  "peerDependencies": {
+    "discord.js": "^14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/discord-number-counter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/discord-number-counter/issues"
+  },
+  "homepage": "https://github.com/yourusername/discord-number-counter#readme"
+}
