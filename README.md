@@ -18,23 +18,39 @@ const counter = new NumberCounter();
 
 // Normal counting
 counter.setMode('normal');
+
 counter.setStep(1);
+
 console.log(counter.next()); // 1
+
 console.log(counter.next()); // 2
+
+
 
 // Reverse counting
 counter.reset();
+
 counter.setMode('reverse');
+
 counter.setStep(1);
+
 console.log(counter.next()); // -1
+
 console.log(counter.next()); // -2
+
+
 
 // Multiply counting
 counter.reset();
+
 counter.setMode('multiply');
+
 counter.setMultiplier(3);
+
 console.log(counter.next()); // 3
+
 console.log(counter.next()); // 9
+
 
 
 
